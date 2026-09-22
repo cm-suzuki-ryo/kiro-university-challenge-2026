@@ -1,0 +1,53 @@
+# AWS What's New Notifier — フィルタ設定
+
+# --- 除外条件 ---
+
+# RSS の category フィールドに含まれるキーワードで除外
+exclude_categories:
+  - amazon-eks
+  - amazon-sagemaker
+  - rds-for-oracle
+  - rds-for-sql-server
+  - amazon-connect
+
+# タイトルに含まれるキーワードで除外
+exclude_keywords:
+  - GovCloud
+  - AWS GovCloud
+  - SageMaker
+  - Parallel Computing Service
+
+# リージョン追加系アナウンスを除外（東京リージョンは除外しない）
+region_expansion:
+  enabled: true
+  patterns:
+    - "now available in"
+    - "now available in the"
+    - "launches in"
+    - "expands to"
+    - "now supported in"
+  allow_regions:
+    - Tokyo
+    - Asia Pacific (Tokyo)
+    - ap-northeast-1
+
+# 高額サービス・インスタンスタイプの除外
+exclude_expensive:
+  - Trainium
+  - Inferentia
+  - bare metal
+  - bare-metal
+  - High Memory
+  - p4d
+  - p5
+  - Private CA
+  - CloudHSM
+  - Outposts
+  - Wavelength
+  - Local Zones
+  - Dedicated Host
+
+# --- SNS 設定 ---
+sns:
+  topic_arn: "arn:aws:sns:ap-northeast-1:784693731708:aws-whatsnew-notifier"
+  region: "ap-northeast-1"

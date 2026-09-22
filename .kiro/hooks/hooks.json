@@ -1,0 +1,23 @@
+{
+  "version": "v1",
+  "hooks": [
+    {
+      "name": "Validate filter config on save",
+      "trigger": "PostFileSave",
+      "matcher": "config/filter_config\\.yaml$",
+      "action": {
+        "type": "command",
+        "command": "python3 -c \"\nimport yaml, sys\ntry:\n    with open('config/filter_config.yaml') as f:\n        cfg = yaml.safe_load(f)\n    required = ['exclude_categories', 'exclude_keywords', 'region_expansion', 'sns']\n    missing = [k for k in required if k not in cfg]\n    if missing:\n        print(f'ERROR: filter_config.yaml missing keys: {missing}', file=sys.stderr)\n        sys.exit(1)\n    print('OK: filter_config.yaml is valid')\nexcept yaml.YAMLError as e:\n    print(f'ERROR: YAML parse error: {e}', file=sys.stderr)\n    sys.exit(1)\n\""
+      }
+    },
+    {
+      "name": "Run tests on src/ save",
+      "trigger": "PostFileSave",
+      "matcher": "src/.*\\.py$",
+      "action": {
+        "type": "command",
+        "command": "python3 -m pytest tests/ -q --tb=short 2>&1 | tail -20"
+      }
+    }
+  ]
+}
