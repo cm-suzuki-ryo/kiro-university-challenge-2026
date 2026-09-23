@@ -1,0 +1,12 @@
+{
+  "name": "aws-whatsnew",
+  "version": "1.0.0",
+  "description": "Tools and best practices for the AWS What's New Notifier project. Loads setup skills and coding conventions when you mention 'aws-whatsnew' or 'whatsnew'.",
+  "keywords": ["aws-whatsnew", "whatsnew", "aws", "rss", "sns", "notifier"],
+  "skills": [
+    {
+      "name": "setup",
+      "path": "skills/setup/SKILL.md"
+    }
+  ]
+}
