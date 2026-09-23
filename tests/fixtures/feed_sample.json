@@ -1,0 +1,110 @@
+[
+  {
+    "guid": "378eb1d1b12e04e4c37dcda76f6d4d123b7c7807",
+    "title": "Amazon CloudWatch Omni: AI-first observability for agents and applications",
+    "description_plain": "AWS announces the general availability of Amazon CloudWatch Omni, an evolution of Amazon CloudWatch. Omni is an AI-powered observability experience organized around your teams and the applications they run.",
+    "pub_date": "Wed, 23 Sep 2026 00:06:00 GMT",
+    "category": "general:products/amazon-cloudwatch",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-cloudwatch-omni-ai/",
+    "service_category": "Amazon CloudWatch"
+  },
+  {
+    "guid": "550bed1161044a3d69be78ef263de16f06f52280",
+    "title": "OpenAI GPT-6 Sol and GPT-6 Luna are now generally available on Amazon Bedrock",
+    "description_plain": "Today, AWS announces the general availability of GPT-6 Sol and GPT-6 Luna from OpenAI on Amazon Bedrock. These models give teams more ways to balance intelligence and cost.",
+    "pub_date": "Tue, 22 Sep 2026 18:09:00 GMT",
+    "category": "general:products/amazon-bedrock",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/openai-gpt-6-sol-luna-on-amazon-bedrock/",
+    "service_category": "Amazon Bedrock"
+  },
+  {
+    "guid": "acff23730db7e664551e9a21a6c4285ac943a02e",
+    "title": "Claude Opus 5.5 is now available on AWS",
+    "description_plain": "AWS now offers Claude Opus 5.5, Anthropic's most capable Opus model yet, a better collaborator that handles long-running coding and knowledge work.",
+    "pub_date": "Tue, 22 Sep 2026 15:00:00 GMT",
+    "category": "general:products/amazon-bedrock",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/claude-opus-5-5-aws/",
+    "service_category": "Amazon Bedrock"
+  },
+  {
+    "guid": "bedrock-kb-acl-001",
+    "title": "Amazon Bedrock Managed Knowledge Base adds ACL debug APIs",
+    "description_plain": "Amazon Bedrock Managed Knowledge Base now provides CheckIngestedDocumentAcl and GetIngestedDocumentAcl APIs to help debug access control issues in RAG systems.",
+    "pub_date": "Tue, 22 Sep 2026 10:00:00 GMT",
+    "category": "general:products/amazon-bedrock",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-bedrock-knowledge-base-acl-debug/",
+    "service_category": "Amazon Bedrock"
+  },
+  {
+    "guid": "5b1280bd340af63d9f583c745f24a5034db1a5ca",
+    "title": "Amazon EMR introduces Long Term Support with Apache Spark 4.1",
+    "description_plain": "Amazon EMR introduces Long Term Support (LTS) releases, starting with emr-spark-8.1.0 and Apache Spark 4.1. Designated versions receive 36 months of support.",
+    "pub_date": "Tue, 22 Sep 2026 08:00:00 GMT",
+    "category": "general:products/amazon-emr",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-emr-long-term-support-spark-4-1/",
+    "service_category": "Amazon EMR"
+  },
+  {
+    "guid": "6bd97fb745fc25858d2cd258168f59f4a7c84947",
+    "title": "Amazon EMR 7.14 is now available",
+    "description_plain": "Amazon EMR 7.14 is now available with new features across Amazon EMR on EC2, Amazon EMR on EKS, and Amazon EMR Serverless.",
+    "pub_date": "Tue, 22 Sep 2026 08:00:00 GMT",
+    "category": "general:products/amazon-emr",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-emr-7-14-available/",
+    "service_category": "Amazon EMR"
+  },
+  {
+    "guid": "215372dca479c6175a2a5c8942d99b845915ed5b",
+    "title": "AWS Glue Data Quality delivers context-specific rule recommendations in seconds",
+    "description_plain": "AWS Glue Data Quality now generates data quality rules in seconds, reducing the time to establish data quality checks for your tables in the AWS Glue Data Catalog.",
+    "pub_date": "Tue, 22 Sep 2026 08:00:00 GMT",
+    "category": "general:products/aws-glue",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/glue-data-quality-rule-recommendations/",
+    "service_category": "AWS Glue"
+  },
+  {
+    "guid": "8b74cae3c9fc201ccabae18ef60d45311a0b35cc",
+    "title": "Amazon ECS now provides real-time deployment observability in the AWS Management Console",
+    "description_plain": "Amazon ECS now provides real-time service deployment observability for native Linear, Canary, and Blue/Green deployment strategies.",
+    "pub_date": "Mon, 21 Sep 2026 20:05:00 GMT",
+    "category": "general:products/amazon-ecs",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-ecs-console-deployment-observability/",
+    "service_category": "Amazon ECS"
+  },
+  {
+    "guid": "08d407c03041390903f0983af013d2c72ef67d19",
+    "title": "Amazon ECS Express Mode now supports AWS Graviton (ARM64) workloads",
+    "description_plain": "Amazon ECS Express Mode now supports specifying ARM64 as the CPU architecture, making it easy to deploy ARM-based container images on AWS Graviton-powered compute.",
+    "pub_date": "Fri, 18 Sep 2026 17:27:00 GMT",
+    "category": "general:products/amazon-ecs",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-ecs-express-mode-arm-architecture/",
+    "service_category": "Amazon ECS"
+  },
+  {
+    "guid": "lambda-lmi-timeout-001",
+    "title": "AWS Lambda extends function timeout to 90 minutes on Lambda Managed Instances",
+    "description_plain": "AWS Lambda now supports function timeouts up to 90 minutes on Lambda Managed Instances, enabling long-running workloads like media transcoding and batch processing.",
+    "pub_date": "Mon, 21 Sep 2026 12:00:00 GMT",
+    "category": "aws-lambda",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-lambda-90-minute-timeout/",
+    "service_category": "AWS Lambda"
+  },
+  {
+    "guid": "lambda-graviton5-001",
+    "title": "AWS Lambda now supports Graviton5-powered EC2 instances on Lambda Managed Instances",
+    "description_plain": "AWS Lambda Managed Instances now supports Graviton5-based instance types, delivering up to 25% better compute performance compared to Graviton4.",
+    "pub_date": "Mon, 21 Sep 2026 10:00:00 GMT",
+    "category": "aws-lambda",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-lambda-graviton5/",
+    "service_category": "AWS Lambda"
+  },
+  {
+    "guid": "2bc1064312a16a716dd5bbb87280355d7c01e429",
+    "title": "AWS Security Hub AI Inventory adds Azure self-hosted instance support",
+    "description_plain": "AWS Security Hub AI Inventory now supports discovering and cataloging AI assets running on self-hosted instances in Microsoft Azure.",
+    "pub_date": "Tue, 22 Sep 2026 08:00:00 GMT",
+    "category": "general:products/aws-security-hub",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/security-hub-ai-inventory-azure-support/",
+    "service_category": "AWS Security Hub"
+  }
+]
